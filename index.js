@@ -52,6 +52,6 @@ function maxNumber(numbers) {
     if (singleNumbers[i] > maxNum) {
       maxNum = singleNumbers[i];
     }
-    return maxNum;
   }
+  return maxNum;
 }
