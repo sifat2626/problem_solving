@@ -48,7 +48,6 @@ function maxNumber(numbers) {
   let maxNum;
   for (let i = 0; i < singleNumbers.length; i++) {
     maxNum = singleNumbers[i];
-    console.log(maxNum);
     if (singleNumbers[i] > maxNum) {
       maxNum = singleNumbers[i];
     }
@@ -56,4 +55,4 @@ function maxNumber(numbers) {
   return maxNum;
 }
 
-console.log(maxNumber([1, 2, 3, 1, 5, 2]));
+console.log(maxNumber([1, 2, 8, 8, 3, 1, 5, 2]));
